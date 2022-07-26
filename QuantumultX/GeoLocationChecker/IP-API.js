@@ -2,13 +2,9 @@ if ($response.statusCode != 200) {
   $done(null);
 }
 
-const emojis= ['🆘','🈲','⚠️','🔞','📵','🚦','🏖','🖥','📺','🐧','🐬','🦉','🍄','⛳️','🚴','🤑','👽','🤖','🎃', '👺', '👁', '🐶', '🐼','🐌', '👥']
 var city0 = "Connected";
 var isp0 = "UNKNOWN";
 var misc0 = "?";
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
 
 function City_ValidCheck(para) {
   if(para) {
